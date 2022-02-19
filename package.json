@@ -2,9 +2,10 @@
   "name": "@fauzi/fauziui",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod" :"cd ./react-fauziui & npm run rollup",
+    "dev:react": "cd ./react-fauziui & npm run start:rar"
   },
   "keywords": [],
   "author": "",
@@ -13,12 +14,12 @@
     "react-fauziui",
     "svelte-fauziui"
   ],
-  "dependencies": {
-    "tailwindcss-classnames": "^3.0.2"
-  },
   "devDependencies": {
+    "tailwindcss-classnames",
     "autoprefixer": "^10.4.2",
     "postcss": "^8.4.6",
+    "react-app-rewire-alias": "^1.1.7",
+    "react-app-rewired": "^2.2.1",
     "rollup-plugin-dts": "^4.1.0",
     "tailwindcss": "^3.0.23"
   }
