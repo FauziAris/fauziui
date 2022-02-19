@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "types",
+    "sourceMap": true,
+    "outDir": "dist",
+    //default
     "target": "es5",
     "lib": [
       "dom",
