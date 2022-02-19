@@ -1,7 +1,15 @@
 {
-  "name": "@fauzi/react-fauziui",
+  "name": "@fauzi24/react-fauziui",
   "version": "1.0.0",
-  "private": true,
+  "author": "FauziAris",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FauziAris/fauziui"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
